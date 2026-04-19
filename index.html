@@ -1,0 +1,1840 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Salon — Premium Beauty Studio | Mapusa, Goa</title>
+    <meta
+      name="description"
+      content="The Salon is a premium beauty studio in Mapusa, Goa offering expert hair styling, skincare, nail art, and bridal makeup. Book your appointment via WhatsApp."
+    />
+    <meta
+      name="keywords"
+      content="salon Mapusa, beauty salon Goa, hair salon Mapusa, bridal makeup Goa, nail art Goa, facial Goa, The Salon Mapusa"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://thesalon.in/" />
+
+    <!-- Open Graph / Social sharing -->
+    <meta property="og:type" content="business.business" />
+    <meta
+      property="og:title"
+      content="The Salon — Premium Beauty Studio | Mapusa, Goa"
+    />
+    <meta
+      property="og:description"
+      content="Expert hair styling, skincare, nail art & bridal makeup in the heart of Mapusa, Goa. Book instantly via WhatsApp."
+    />
+    <meta property="og:url" content="https://thesalon.in/" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80"
+    />
+    <meta property="og:locale" content="en_IN" />
+    <meta
+      property="business:contact_data:street_address"
+      content="Coscar Corner, SBI Road, Taliwada"
+    />
+    <meta property="business:contact_data:locality" content="Mapusa" />
+    <meta property="business:contact_data:region" content="Goa" />
+    <meta property="business:contact_data:postal_code" content="403507" />
+    <meta property="business:contact_data:country_name" content="India" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="The Salon — Premium Beauty Studio | Mapusa, Goa"
+    />
+    <meta
+      name="twitter:description"
+      content="Expert hair styling, skincare, nail art & bridal makeup in Mapusa, Goa."
+    />
+    <meta
+      name="twitter:image"
+      content="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80"
+    />
+
+    <!-- Structured Data: Local Business -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BeautySalon",
+        "name": "The Salon",
+        "description": "Premium beauty studio in Mapusa, Goa offering hair styling, skincare, nail art and bridal makeup.",
+        "url": "https://thesalon.in",
+        "telephone": "+919999999999",
+        "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80",
+        "priceRange": "₹₹",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Coscar Corner, SBI Road, Taliwada",
+          "addressLocality": "Mapusa",
+          "addressRegion": "Goa",
+          "postalCode": "403507",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 15.5901774,
+          "longitude": 73.8114185
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday",
+              "Saturday"
+            ],
+            "opens": "10:00",
+            "closes": "20:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "11:00",
+            "closes": "18:00"
+          }
+        ],
+        "hasMap": "https://maps.google.com/?q=Coscar+Corner+SBI+Road+Mapusa+Goa",
+        "sameAs": ["https://www.instagram.com/thesalon.mapusa"]
+      }
+    </script>
+
+    <link
+      rel="preload"
+      as="image"
+      href="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&q=80"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --black: #0a0a0a;
+        --white: #fafaf7;
+        --cream: #f5f0e8;
+        --gold: #c9a84c;
+        --gold-light: #e8d5a3;
+        --dark: #1a1a1a;
+        --muted: #666;
+        --border: rgba(201, 168, 76, 0.25);
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "DM Sans", sans-serif;
+        background: var(--black);
+        color: var(--white);
+        overflow-x: hidden;
+        cursor: none;
+      }
+
+      /* Custom cursor */
+      .cursor {
+        width: 8px;
+        height: 8px;
+        background: var(--gold);
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+        transition:
+          transform 0.1s ease,
+          width 0.3s,
+          height 0.3s,
+          background 0.3s;
+      }
+      .cursor-ring {
+        width: 36px;
+        height: 36px;
+        border: 1px solid rgba(201, 168, 76, 0.5);
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9998;
+        transform: translate(-50%, -50%);
+        transition:
+          transform 0.15s ease,
+          width 0.3s,
+          height 0.3s;
+      }
+      .cursor.hovered {
+        width: 14px;
+        height: 14px;
+        background: var(--gold-light);
+      }
+      .cursor-ring.hovered {
+        width: 56px;
+        height: 56px;
+        border-color: var(--gold);
+      }
+
+      /* Nav */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        padding: 1.5rem 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(
+          to bottom,
+          rgba(10, 10, 10, 0.95),
+          transparent
+        );
+        transition: background 0.4s;
+      }
+      nav.scrolled {
+        background: rgba(10, 10, 10, 0.98);
+        backdrop-filter: blur(12px);
+      }
+
+      .logo {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.6rem;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        color: var(--white);
+        text-transform: uppercase;
+      }
+      .logo span {
+        color: var(--gold);
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 2.5rem;
+        list-style: none;
+      }
+      .nav-links a {
+        font-size: 0.78rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: rgba(250, 250, 247, 0.7);
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      .nav-links a:hover {
+        color: var(--gold);
+      }
+
+      .nav-cta {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--gold);
+        text-decoration: none;
+        border: 1px solid var(--border);
+        padding: 0.6rem 1.4rem;
+        transition: all 0.3s;
+      }
+      .nav-cta:hover {
+        background: var(--gold);
+        color: var(--black);
+        border-color: var(--gold);
+      }
+
+      /* Hero */
+      .hero {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8rem 4rem 4rem 6rem;
+        position: relative;
+        z-index: 2;
+      }
+
+      .hero-tag {
+        font-size: 0.7rem;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+      .hero-tag::before {
+        content: "";
+        width: 40px;
+        height: 1px;
+        background: var(--gold);
+      }
+
+      .hero-title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(3.5rem, 6vw, 7rem);
+        font-weight: 300;
+        line-height: 1.05;
+        margin-bottom: 2rem;
+      }
+      .hero-title em {
+        font-style: italic;
+        color: var(--gold);
+      }
+
+      .hero-subtitle {
+        font-size: 0.95rem;
+        line-height: 1.8;
+        color: rgba(250, 250, 247, 0.6);
+        max-width: 360px;
+        margin-bottom: 3rem;
+      }
+
+      .hero-actions {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+      }
+
+      .btn-primary {
+        background: var(--gold);
+        color: var(--black);
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 1rem 2.5rem;
+        text-decoration: none;
+        transition: all 0.3s;
+        display: inline-block;
+      }
+      .btn-primary:hover {
+        background: var(--gold-light);
+      }
+
+      .btn-ghost {
+        font-size: 0.75rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--white);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        transition: color 0.3s;
+      }
+      .btn-ghost:hover {
+        color: var(--gold);
+      }
+      .btn-ghost::after {
+        content: "→";
+        transition: transform 0.3s;
+      }
+      .btn-ghost:hover::after {
+        transform: translateX(4px);
+      }
+
+      .hero-right {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-img-wrap {
+        width: 100%;
+        height: 100%;
+        background: #1c1510;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-img-wrap::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: url("https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&q=80")
+          center/cover no-repeat;
+        opacity: 0.75;
+        transform: scale(1.05);
+        transition: transform 8s ease;
+      }
+      .hero-img-wrap:hover::before {
+        transform: scale(1);
+      }
+
+      .hero-img-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to right, var(--black) 0%, transparent 40%);
+      }
+
+      .hero-scroll {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        color: rgba(250, 250, 247, 0.4);
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        z-index: 3;
+        animation: bounceDown 2s infinite;
+      }
+      .hero-scroll::after {
+        content: "";
+        width: 1px;
+        height: 40px;
+        background: linear-gradient(to bottom, var(--gold), transparent);
+      }
+
+      @keyframes bounceDown {
+        0%,
+        100% {
+          transform: translateX(-50%) translateY(0);
+        }
+        50% {
+          transform: translateX(-50%) translateY(6px);
+        }
+      }
+
+      /* Section shared */
+      section {
+        padding: 7rem 6rem;
+      }
+
+      .section-tag {
+        font-size: 0.68rem;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: var(--gold);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+      }
+      .section-tag::before {
+        content: "";
+        width: 30px;
+        height: 1px;
+        background: var(--gold);
+      }
+
+      .section-title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(2.2rem, 4vw, 4rem);
+        font-weight: 300;
+        line-height: 1.1;
+      }
+      .section-title em {
+        font-style: italic;
+        color: var(--gold);
+      }
+
+      /* About */
+      .about {
+        background: var(--dark);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6rem;
+        align-items: center;
+      }
+
+      .about-img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        height: 480px;
+      }
+
+      .about-img {
+        border-radius: 2px;
+        overflow: hidden;
+        position: relative;
+      }
+      .about-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+      }
+      .about-img:hover img {
+        transform: scale(1.05);
+      }
+      .about-img:first-child {
+        grid-row: span 2;
+      }
+
+      .about-text p {
+        font-size: 1rem;
+        line-height: 1.9;
+        color: rgba(250, 250, 247, 0.65);
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .about-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--border);
+      }
+
+      .stat-num {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: var(--gold);
+        line-height: 1;
+      }
+      .stat-label {
+        font-size: 0.72rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(250, 250, 247, 0.5);
+        margin-top: 0.3rem;
+      }
+
+      /* Services */
+      .services {
+        background: var(--black);
+      }
+
+      .services-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 4rem;
+      }
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5px;
+        background: var(--border);
+      }
+
+      .service-card {
+        background: var(--black);
+        padding: 2.5rem 2rem;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        transition: background 0.4s;
+      }
+      .service-card::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: var(--gold);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.4s ease;
+      }
+      .service-card:hover {
+        background: #111;
+      }
+      .service-card:hover::before {
+        transform: scaleX(1);
+      }
+
+      .service-icon {
+        display: block;
+        width: 48px;
+        height: 48px;
+        margin-bottom: 1.5rem;
+      }
+      .service-icon svg {
+        width: 48px;
+        height: 48px;
+        stroke: var(--gold);
+        fill: none;
+        stroke-width: 1.2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transition: stroke 0.3s;
+      }
+      .service-card:hover .service-icon svg {
+        stroke: var(--gold-light);
+      }
+
+      .service-name {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 0.8rem;
+      }
+
+      .service-desc {
+        font-size: 0.82rem;
+        line-height: 1.7;
+        color: rgba(250, 250, 247, 0.5);
+        margin-bottom: 1.5rem;
+      }
+
+      .service-items {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+      .service-items li {
+        font-size: 0.78rem;
+        color: rgba(250, 250, 247, 0.6);
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+      }
+      .service-items li::before {
+        content: "—";
+        color: var(--gold);
+        font-size: 0.6rem;
+      }
+
+      .service-price {
+        margin-top: 1.5rem;
+        font-size: 0.7rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+
+      /* Gallery */
+      .gallery {
+        background: #111;
+        padding-bottom: 0;
+      }
+
+      .gallery-header {
+        margin-bottom: 3rem;
+      }
+
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 300px 300px;
+        gap: 4px;
+      }
+
+      .gallery-item {
+        overflow: hidden;
+        position: relative;
+      }
+      .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition:
+          transform 0.6s ease,
+          filter 0.4s;
+        filter: saturate(0.8) brightness(0.9);
+      }
+      .gallery-item:hover img {
+        transform: scale(1.08);
+        filter: saturate(1.1) brightness(1);
+      }
+      .gallery-item:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      .gallery-item:nth-child(4) {
+        grid-column: span 2;
+      }
+
+      .gallery-overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(10, 10, 10, 0);
+        transition: background 0.4s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .gallery-item:hover .gallery-overlay {
+        background: rgba(10, 10, 10, 0.3);
+      }
+
+      .gallery-overlay span {
+        font-size: 0.7rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--white);
+        opacity: 0;
+        transform: translateY(8px);
+        transition: all 0.4s;
+      }
+      .gallery-item:hover .gallery-overlay span {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* Testimonials */
+      .testimonials {
+        background: var(--dark);
+        text-align: center;
+      }
+
+      .testimonials .section-tag {
+        justify-content: center;
+      }
+      .testimonials .section-tag::before {
+        display: none;
+      }
+
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 4rem;
+      }
+
+      .testimonial-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border);
+        padding: 2.5rem;
+        text-align: left;
+        position: relative;
+      }
+
+      .testimonial-card::before {
+        content: "\201C";
+        font-family: "Cormorant Garamond", serif;
+        font-size: 5rem;
+        line-height: 0;
+        color: var(--gold);
+        opacity: 0.3;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+      }
+
+      .testimonial-text {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.1rem;
+        font-style: italic;
+        line-height: 1.7;
+        color: rgba(250, 250, 247, 0.85);
+        margin-bottom: 1.5rem;
+        margin-top: 1rem;
+      }
+
+      .testimonial-author {
+        font-size: 0.75rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gold);
+      }
+
+      .testimonial-stars {
+        color: var(--gold);
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        margin-bottom: 1rem;
+      }
+
+      /* Pricing */
+      .pricing {
+        background: var(--black);
+      }
+
+      .pricing-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 4rem;
+      }
+
+      .price-card {
+        border: 1px solid var(--border);
+        padding: 2.5rem;
+        position: relative;
+        transition: border-color 0.4s;
+      }
+      .price-card:hover {
+        border-color: var(--gold);
+      }
+      .price-card.featured {
+        border-color: var(--gold);
+        background: rgba(201, 168, 76, 0.04);
+      }
+
+      .price-badge {
+        position: absolute;
+        top: -12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--gold);
+        color: var(--black);
+        font-size: 0.62rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        font-weight: 500;
+        padding: 0.3rem 1rem;
+      }
+
+      .price-category {
+        font-size: 0.68rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 1rem;
+      }
+
+      .price-title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.8rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+      }
+
+      .price-from {
+        font-size: 0.75rem;
+        color: rgba(250, 250, 247, 0.4);
+        margin-bottom: 0.5rem;
+      }
+
+      .price-amount {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 3rem;
+        font-weight: 300;
+        color: var(--gold);
+        line-height: 1;
+        margin-bottom: 2rem;
+      }
+      .price-amount small {
+        font-size: 1rem;
+        color: rgba(250, 250, 247, 0.5);
+        font-family: "DM Sans", sans-serif;
+      }
+
+      .price-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid var(--border);
+      }
+      .price-list li {
+        font-size: 0.85rem;
+        color: rgba(250, 250, 247, 0.65);
+        display: flex;
+        gap: 0.8rem;
+      }
+      .price-list li::before {
+        content: "✓";
+        color: var(--gold);
+        flex-shrink: 0;
+      }
+
+      /* WhatsApp CTA */
+      .wa-section {
+        background: linear-gradient(135deg, #0a3622 0%, #0d2818 100%);
+        padding: 5rem 6rem;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 4rem;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .wa-section::before {
+        content: "";
+        position: absolute;
+        right: -100px;
+        top: -100px;
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        background: rgba(37, 211, 102, 0.05);
+      }
+
+      .wa-title {
+        font-family: "Cormorant Garamond", serif;
+        font-size: clamp(2rem, 3.5vw, 3rem);
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+
+      .wa-sub {
+        font-size: 0.9rem;
+        color: rgba(250, 250, 247, 0.6);
+        line-height: 1.7;
+      }
+
+      .wa-btn {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        background: #25d366;
+        color: #fff;
+        text-decoration: none;
+        padding: 1.1rem 2.5rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 0.08em;
+        white-space: nowrap;
+        transition: all 0.3s;
+        flex-shrink: 0;
+      }
+      .wa-btn:hover {
+        background: #20c45e;
+        transform: translateY(-2px);
+      }
+
+      .wa-icon {
+        width: 24px;
+        height: 24px;
+        fill: white;
+      }
+
+      /* Map / Info */
+      .info-section {
+        background: var(--dark);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0;
+      }
+
+      .info-content {
+        padding: 5rem 5rem;
+      }
+
+      .info-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .info-block {
+      }
+      .info-block-label {
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 0.6rem;
+      }
+      .info-block-val {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        color: rgba(250, 250, 247, 0.75);
+      }
+
+      .map-placeholder {
+        background: #111;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        min-height: 400px;
+      }
+
+      .map-placeholder iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        filter: grayscale(0.6) invert(0.9) hue-rotate(180deg);
+        min-height: 400px;
+      }
+
+      .map-placeholder-text {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.2rem;
+        color: rgba(250, 250, 247, 0.3);
+        text-align: center;
+        padding: 2rem;
+      }
+
+      /* Footer */
+      footer {
+        background: var(--black);
+        padding: 3rem 6rem;
+        border-top: 1px solid var(--border);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .footer-logo {
+        font-family: "Cormorant Garamond", serif;
+        font-size: 1.3rem;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--white);
+      }
+      .footer-logo span {
+        color: var(--gold);
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+      }
+      .footer-links a {
+        font-size: 0.72rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: rgba(250, 250, 247, 0.4);
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      .footer-links a:hover {
+        color: var(--gold);
+      }
+
+      .footer-copy {
+        font-size: 0.72rem;
+        color: rgba(250, 250, 247, 0.3);
+      }
+
+      /* Animations */
+      .reveal {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity 0.8s ease,
+          transform 0.8s ease;
+      }
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .reveal-delay-1 {
+        transition-delay: 0.1s;
+      }
+      .reveal-delay-2 {
+        transition-delay: 0.2s;
+      }
+      .reveal-delay-3 {
+        transition-delay: 0.3s;
+      }
+
+      /* Gold line decoration */
+      .gold-line {
+        width: 60px;
+        height: 1px;
+        background: linear-gradient(to right, var(--gold), transparent);
+        margin: 2rem 0;
+      }
+
+      /* Marquee */
+      .marquee-wrap {
+        background: var(--gold);
+        padding: 1rem 0;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .marquee-track {
+        display: inline-flex;
+        gap: 4rem;
+        animation: marquee 20s linear infinite;
+      }
+      .marquee-track span {
+        font-size: 0.7rem;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        color: var(--black);
+        font-weight: 500;
+      }
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+
+      /* Responsive — tablet */
+      @media (max-width: 1024px) {
+        nav {
+          padding: 1.2rem 2rem;
+        }
+        .nav-links {
+          display: none;
+        }
+        .hero {
+          grid-template-columns: 1fr;
+          height: auto;
+          min-height: 100vh;
+          overflow: hidden;
+          position: relative;
+        }
+        .hero-right {
+          display: block;
+          position: absolute;
+          inset: 0;
+          z-index: 0;
+        }
+        .hero-left {
+          padding: 7rem 2.5rem 5rem;
+          min-height: 100vh;
+          justify-content: center;
+          position: relative;
+          z-index: 1;
+          background: linear-gradient(
+            to right,
+            rgba(10, 10, 10, 0.88) 0%,
+            rgba(10, 10, 10, 0.55) 100%
+          );
+        }
+        .hero-title {
+          font-size: clamp(2.8rem, 8vw, 4.5rem);
+        }
+        .hero-subtitle {
+          max-width: 100%;
+        }
+        section {
+          padding: 5rem 2.5rem;
+        }
+        .about {
+          grid-template-columns: 1fr;
+        }
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: auto;
+        }
+        .gallery-item:nth-child(1) {
+          grid-column: 1;
+          grid-row: 1;
+        }
+        .gallery-item:nth-child(4) {
+          grid-column: 1;
+        }
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+        }
+        .pricing-grid {
+          grid-template-columns: 1fr;
+        }
+        .wa-section {
+          grid-template-columns: 1fr;
+          padding: 4rem 2.5rem;
+        }
+        .info-section {
+          grid-template-columns: 1fr;
+        }
+        footer {
+          flex-direction: column;
+          gap: 1.5rem;
+          text-align: center;
+          padding: 2rem 2.5rem;
+        }
+        .footer-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+
+      /* Responsive — mobile */
+      @media (max-width: 600px) {
+        nav {
+          padding: 1rem 1.5rem;
+        }
+        .logo {
+          font-size: 1.3rem;
+        }
+        .nav-cta {
+          padding: 0.5rem 1rem;
+          font-size: 0.68rem;
+        }
+        .hero {
+          height: auto;
+          min-height: 100svh;
+          overflow: hidden;
+        }
+        .hero-left {
+          padding: 6rem 1.5rem 4rem;
+          min-height: 100svh;
+        }
+        .hero-title {
+          font-size: clamp(2.4rem, 11vw, 3.5rem);
+        }
+        .hero-actions {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1.2rem;
+        }
+        .btn-primary {
+          width: 100%;
+          text-align: center;
+        }
+        section {
+          padding: 4rem 1.5rem;
+        }
+        .services-grid {
+          grid-template-columns: 1fr;
+          gap: 1px;
+        }
+        .service-card {
+          padding: 2rem 1.5rem;
+        }
+        .about-img-grid {
+          height: 320px;
+        }
+        .about-stats {
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1rem;
+        }
+        .stat-num {
+          font-size: 2rem;
+        }
+        .gallery-grid {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: auto;
+        }
+        .gallery-grid .gallery-item {
+          height: 180px;
+        }
+        .gallery-item:nth-child(1) {
+          grid-column: span 2;
+          height: 220px;
+        }
+        .gallery-item:nth-child(4) {
+          grid-column: 1;
+        }
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+        }
+        .pricing-grid {
+          grid-template-columns: 1fr;
+        }
+        .price-card {
+          padding: 2rem 1.5rem;
+        }
+        .wa-section {
+          padding: 3rem 1.5rem;
+          gap: 2rem;
+        }
+        .wa-btn {
+          width: 100%;
+          justify-content: center;
+        }
+        .info-content {
+          padding: 3rem 1.5rem;
+        }
+        .info-grid {
+          grid-template-columns: 1fr 1fr;
+          gap: 1.5rem;
+        }
+        footer {
+          padding: 2rem 1.5rem;
+        }
+        .footer-links {
+          gap: 1rem;
+        }
+        .services-header {
+          flex-direction: column;
+          gap: 1rem;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Nav -->
+    <nav id="navbar" aria-label="Main navigation">
+      <div class="logo">The <span>Salon</span></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a
+        href="https://wa.me/919999999999"
+        class="nav-cta"
+        target="_blank"
+        aria-label="Book appointment on WhatsApp"
+        >Book Now</a
+      >
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <div class="hero-tag reveal">Premium Beauty Studio</div>
+        <h1 class="hero-title reveal reveal-delay-1">
+          Where Beauty<br />Meets <em>Artistry</em>
+        </h1>
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Step into a world of refined beauty. Expert stylists, luxurious
+          treatments, and a sanctuary crafted for the modern individual.
+        </p>
+        <div class="hero-actions reveal reveal-delay-3">
+          <a
+            href="https://wa.me/919999999999"
+            class="btn-primary"
+            target="_blank"
+            aria-label="Book salon appointment on WhatsApp"
+            >Book Appointment</a
+          >
+          <a href="#services" class="btn-ghost">View Services</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-img-wrap">
+          <div class="hero-img-overlay"></div>
+        </div>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span>Hair Styling</span><span>✦</span> <span>Skin Care</span
+        ><span>✦</span> <span>Nail Art</span><span>✦</span> <span>Makeup</span
+        ><span>✦</span> <span>Bridal Packages</span><span>✦</span>
+        <span>Hair Colour</span><span>✦</span> <span>Facials</span
+        ><span>✦</span> <span>Premium Treatments</span><span>✦</span>
+        <span>Hair Styling</span><span>✦</span> <span>Skin Care</span
+        ><span>✦</span> <span>Nail Art</span><span>✦</span> <span>Makeup</span
+        ><span>✦</span> <span>Bridal Packages</span><span>✦</span>
+        <span>Hair Colour</span><span>✦</span> <span>Facials</span
+        ><span>✦</span> <span>Premium Treatments</span><span>✦</span>
+      </div>
+    </div>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="about-img-grid reveal">
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=600&q=80"
+            alt="Salon interior"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&q=80"
+            alt="Beauty treatment"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-img">
+          <img
+            src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?w=400&q=80"
+            alt="Nail art"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="about-text">
+        <div class="section-tag reveal">Our Story</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          A Studio Built on <em>Passion</em>
+        </h2>
+        <div class="gold-line reveal reveal-delay-2"></div>
+        <p class="reveal reveal-delay-2">
+          The Salon was born from a simple belief — that every person deserves
+          to feel extraordinary. Our team of certified artists brings years of
+          international training and a deep love for the craft to every
+          appointment.
+        </p>
+        <p class="reveal reveal-delay-3" style="margin-top: -1rem">
+          From precision haircuts to transformative skincare, from nail art to
+          bridal makeup — we offer an experience that goes beyond beauty.
+        </p>
+        <div class="about-stats reveal reveal-delay-3">
+          <div>
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Years of Excellence</div>
+          </div>
+          <div>
+            <div class="stat-num">5K+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div>
+            <div class="stat-num">12</div>
+            <div class="stat-label">Expert Stylists</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="services-header">
+        <div>
+          <div class="section-tag reveal">What We Offer</div>
+          <h2 class="section-title reveal reveal-delay-1">
+            Our <em>Services</em>
+          </h2>
+        </div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <span class="service-icon"
+            ><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="38" r="4" />
+              <circle cx="10" cy="26" r="4" />
+              <line x1="13.5" y1="34.5" x2="40" y2="8" />
+              <line x1="13.5" y1="29.5" x2="40" y2="8" />
+              <line x1="22" y1="24" x2="40" y2="42" />
+              <circle cx="40" cy="8" r="2" />
+            </svg>
+          </span>
+          <div class="service-name">Hair Studio</div>
+          <p class="service-desc">
+            Expert cuts, colours, and treatments tailored to your unique style
+            and personality.
+          </p>
+          <ul class="service-items">
+            <li>Haircut & Styling</li>
+            <li>Balayage & Highlights</li>
+            <li>Keratin Treatment</li>
+            <li>Hair Spa & Rebonding</li>
+            <li>Bridal Hair Styling</li>
+          </ul>
+          <div class="service-price">Starting ₹499</div>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <span class="service-icon"
+            ><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="20" r="11" />
+              <path d="M16 31c0 6 4 11 8 13 4-2 8-7 8-13" />
+              <path d="M20 17c1-3 4-5 4-5s3 2 4 5" />
+              <line x1="21" y1="21" x2="21" y2="23" />
+              <line x1="27" y1="21" x2="27" y2="23" />
+              <path d="M21 25.5c0.8 1 4.2 1 6 0" />
+              <path d="M12 36 Q6 30 7 22" />
+              <path d="M36 36 Q42 30 41 22" />
+            </svg>
+          </span>
+          <div class="service-name">Skin & Face</div>
+          <p class="service-desc">
+            Luxurious facials and skin treatments to reveal your natural
+            radiance.
+          </p>
+          <ul class="service-items">
+            <li>Classic & Hydra Facial</li>
+            <li>Anti-Ageing Treatment</li>
+            <li>Tan Removal</li>
+            <li>Cleanup & Bleach</li>
+            <li>Threading & Waxing</li>
+          </ul>
+          <div class="service-price">Starting ₹399</div>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <span class="service-icon"
+            ><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <rect x="17" y="22" width="14" height="18" rx="2" />
+              <path d="M17 26h14" />
+              <path d="M19 22v-4c0-2 1.5-4 5-4s5 2 5 4v4" />
+              <rect x="20" y="8" width="8" height="4" rx="1" />
+              <line x1="24" y1="29" x2="24" y2="36" />
+              <line x1="21" y1="32" x2="27" y2="32" />
+            </svg>
+          </span>
+          <div class="service-name">Nail Art</div>
+          <p class="service-desc">
+            From minimalist to extravagant — express yourself through stunning
+            nail designs.
+          </p>
+          <ul class="service-items">
+            <li>Manicure & Pedicure</li>
+            <li>Gel & Acrylic Extensions</li>
+            <li>Nail Art Design</li>
+            <li>French & Ombre Nails</li>
+            <li>Nail Repair</li>
+          </ul>
+          <div class="service-price">Starting ₹349</div>
+        </div>
+        <div class="service-card reveal reveal-delay-3">
+          <span class="service-icon"
+            ><svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+              <rect x="19" y="24" width="10" height="16" rx="1" />
+              <path d="M19 28h10" />
+              <path d="M21 24v-6c0-1 1-2 3-2s3 1 3 2v6" />
+              <path d="M22 16v-3c0-1 0.8-2 2-2s2 1 2 2v3" />
+              <rect x="21" y="11" width="6" height="3" rx="0.5" />
+              <path
+                d="M10 38 Q14 34 18 38 Q22 42 26 38 Q30 34 34 38 Q38 42 42 38"
+              />
+              <line x1="10" y1="38" x2="10" y2="40" />
+              <line x1="42" y1="38" x2="42" y2="40" />
+            </svg>
+          </span>
+          <div class="service-name">Makeup</div>
+          <p class="service-desc">
+            Flawless makeup artistry for every occasion — from everyday looks to
+            bridal glam.
+          </p>
+          <ul class="service-items">
+            <li>Bridal Makeup</li>
+            <li>Party & Event Makeup</li>
+            <li>HD & Airbrush Makeup</li>
+            <li>Saree Draping</li>
+            <li>Makeup Lessons</li>
+          </ul>
+          <div class="service-price">Starting ₹999</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="gallery-header">
+        <div class="section-tag reveal">Our Work</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          The <em>Portfolio</em>
+        </h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=800&q=80"
+            alt="Hair styling"
+            loading="lazy"
+          />
+          <div class="gallery-overlay"><span>Hair Styling</span></div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=400&q=80"
+            alt="Makeup"
+            loading="lazy"
+          />
+          <div class="gallery-overlay"><span>Bridal Makeup</span></div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&q=80"
+            alt="Nails"
+            loading="lazy"
+          />
+          <div class="gallery-overlay"><span>Nail Art</span></div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80"
+            alt="Facial"
+            loading="lazy"
+          />
+          <div class="gallery-overlay"><span>Skin Care</span></div>
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=400&q=80"
+            alt="Colour"
+            loading="lazy"
+          />
+          <div class="gallery-overlay"><span>Hair Colour</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <div class="section-tag">Happy Clients</div>
+      <h2 class="section-title">What They <em>Say</em></h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "The Salon completely transformed my look. The hair colour came out
+            exactly as I'd envisioned. The team is so professional and warm!"
+          </p>
+          <div class="testimonial-author">Priya Fernandes — Mapusa, Goa</div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-1">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "Best bridal makeup I could have asked for. I felt absolutely
+            stunning on my wedding day. The artists are incredibly talented."
+          </p>
+          <div class="testimonial-author">Anjali D'Souza — Panaji, Goa</div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-2">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">
+            "I've been coming here for my nails for 2 years now. The nail art is
+            always intricate, long-lasting, and exactly what I want."
+          </p>
+          <div class="testimonial-author">Meera Naik — Porvorim, Goa</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="section-tag reveal">Transparent Pricing</div>
+      <h2 class="section-title reveal reveal-delay-1">
+        Simple, Honest <em>Rates</em>
+      </h2>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <div class="price-category">Essentials</div>
+          <div class="price-title">Everyday Care</div>
+          <div class="price-from">Starting from</div>
+          <div class="price-amount">₹499 <small>/ session</small></div>
+          <ul class="price-list">
+            <li>Haircut & Basic Styling</li>
+            <li>Cleanup & Threading</li>
+            <li>Basic Manicure / Pedicure</li>
+            <li>Eyebrow Shaping</li>
+            <li>Hair Wash & Blow Dry</li>
+          </ul>
+          <a
+            href="https://wa.me/919999999999"
+            class="btn-primary"
+            style="display: block; text-align: center"
+            target="_blank"
+            >Book on WhatsApp</a
+          >
+        </div>
+        <div class="price-card featured reveal reveal-delay-1">
+          <div class="price-badge">Most Popular</div>
+          <div class="price-category">Signature</div>
+          <div class="price-title">Glow Package</div>
+          <div class="price-from">Starting from</div>
+          <div class="price-amount">₹1,499 <small>/ session</small></div>
+          <ul class="price-list">
+            <li>Hydra Facial Treatment</li>
+            <li>Balayage / Highlights</li>
+            <li>Gel Nail Art</li>
+            <li>Party Makeup</li>
+            <li>Hair Spa & Massage</li>
+          </ul>
+          <a
+            href="https://wa.me/919999999999"
+            class="btn-primary"
+            style="display: block; text-align: center"
+            target="_blank"
+            >Book on WhatsApp</a
+          >
+        </div>
+        <div class="price-card reveal reveal-delay-2">
+          <div class="price-category">Luxury</div>
+          <div class="price-title">Bridal Suite</div>
+          <div class="price-from">Starting from</div>
+          <div class="price-amount">₹8,999 <small>/ pkg</small></div>
+          <ul class="price-list">
+            <li>HD / Airbrush Bridal Makeup</li>
+            <li>Bridal Hair Styling</li>
+            <li>Saree Draping</li>
+            <li>Pre-Bridal Facial & Cleanup</li>
+            <li>Nail Art + Mehendi Assist</li>
+          </ul>
+          <a
+            href="https://wa.me/919999999999"
+            class="btn-primary"
+            style="display: block; text-align: center"
+            target="_blank"
+            >Book on WhatsApp</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp CTA -->
+    <div class="wa-section">
+      <div>
+        <h2 class="wa-title reveal">
+          Ready for your
+          <em style="font-style: italic; color: #a3e6be">transformation?</em>
+        </h2>
+        <p class="wa-sub reveal reveal-delay-1">
+          Book your appointment instantly via WhatsApp — no waiting, no forms.
+          Just tap and we'll set up your perfect slot.
+        </p>
+      </div>
+      <a
+        href="https://wa.me/919999999999?text=Hi!%20I'd%20like%20to%20book%20an%20appointment%20at%20The%20Salon."
+        class="wa-btn reveal reveal-delay-2"
+        target="_blank"
+        aria-label="Chat with The Salon on WhatsApp to book appointment"
+      >
+        <svg
+          class="wa-icon"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+          />
+        </svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+
+    <!-- Info / Contact -->
+    <div class="info-section" id="contact">
+      <div class="info-content">
+        <div class="section-tag reveal">Find Us</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          Visit the <em>Studio</em>
+        </h2>
+        <div class="info-grid reveal reveal-delay-2">
+          <div class="info-block">
+            <div class="info-block-label">Address</div>
+            <div class="info-block-val">
+              Coscar Corner, SBI Road<br />Taliwada, Mapusa<br />Goa 403507
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-block-label">Hours</div>
+            <div class="info-block-val">
+              Mon – Sat: 10am – 8pm<br />Sunday: 11am – 6pm
+            </div>
+          </div>
+          <div class="info-block">
+            <div class="info-block-label">Phone / WhatsApp</div>
+            <div class="info-block-val">+91 99999 99999</div>
+          </div>
+          <div class="info-block">
+            <div class="info-block-label">Instagram</div>
+            <div class="info-block-val">@thesalon.mapusa</div>
+          </div>
+        </div>
+        <div style="margin-top: 2.5rem" class="reveal reveal-delay-3">
+          <a
+            href="https://wa.me/919999999999"
+            class="btn-primary"
+            target="_blank"
+            >Book via WhatsApp →</a
+          >
+        </div>
+      </div>
+      <div class="map-placeholder">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3843.0!2d73.8114185!3d15.5901774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbf3be3e9df833b%3A0x150fadb8b8c79b1a!2sCoscar%20Corner%2C%20SBI%20Rd%2C%20Taliwada%2C%20Mapusa%2C%20Goa%20403507!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+          width="100%"
+          height="100%"
+          style="
+            border: 0;
+            min-height: 420px;
+            filter: grayscale(0.5) contrast(1.1);
+          "
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-logo">The <span>Salon</span></div>
+      <ul class="footer-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="footer-copy">© 2025 The Salon. All rights reserved.</div>
+    </footer>
+
+    <script>
+      // Custom cursor
+      const cursor = document.getElementById("cursor");
+      const ring = document.getElementById("cursorRing");
+      let mx = 0,
+        my = 0,
+        rx = 0,
+        ry = 0;
+      document.addEventListener("mousemove", (e) => {
+        mx = e.clientX;
+        my = e.clientY;
+        cursor.style.left = mx + "px";
+        cursor.style.top = my + "px";
+      });
+      function animRing() {
+        rx += (mx - rx) * 0.12;
+        ry += (my - ry) * 0.12;
+        ring.style.left = rx + "px";
+        ring.style.top = ry + "px";
+        requestAnimationFrame(animRing);
+      }
+      animRing();
+      document
+        .querySelectorAll("a, button, .service-card, .gallery-item")
+        .forEach((el) => {
+          el.addEventListener("mouseenter", () => {
+            cursor.classList.add("hovered");
+            ring.classList.add("hovered");
+          });
+          el.addEventListener("mouseleave", () => {
+            cursor.classList.remove("hovered");
+            ring.classList.remove("hovered");
+          });
+        });
+
+      // Scroll nav
+      window.addEventListener("scroll", () => {
+        document
+          .getElementById("navbar")
+          .classList.toggle("scrolled", window.scrollY > 60);
+      });
+
+      // Reveal on scroll
+      const reveals = document.querySelectorAll(".reveal");
+      const obs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      reveals.forEach((el) => obs.observe(el));
+
+      // Hero immediate reveal
+      document.querySelectorAll(".hero .reveal").forEach((el, i) => {
+        setTimeout(() => el.classList.add("visible"), 200 + i * 150);
+      });
+    </script>
+  </body>
+</html>
